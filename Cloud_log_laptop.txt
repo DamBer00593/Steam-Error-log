@@ -1,0 +1,1053 @@
+
+
+[2024-11-17 11:54:50] Client version: 1731433018
+[2024-11-17 11:54:50] [AppID 7] Starting sync (init,)
+[2024-11-17 11:54:50] [AppID 7] AutoCloud checking local state for user 209452479
+[2024-11-17 11:54:50] [AppID 7] Not running AutoCloud. No config data found
+[2024-11-17 11:54:50] [U:1:209452479] [AppID 7] Init cache request complete
+[2024-11-17 11:54:50] [AppID 7] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 11:54:52] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 11:54:57] [AppID 7] Starting sync (down,)
+[2024-11-17 11:54:57] [AppID 7] Attempting to sync from local change number '0' to global change number '51' (full)
+[2024-11-17 11:54:57] [AppID 7] sharedconfig.vdf has local changes but mismatch - creating a conflict. Local/Remote SHA: 505901c56d4306259c0e08a91bebd541483178e3 / db706532310ecbb9a80417f90080c7fee5abafba, Timestamps: 0 / 1721656459, persist state: 0 / 0
+[2024-11-17 11:54:57] [AppID 7] Sync conflict for file sharedconfig.vdf
+[2024-11-17 11:54:57] [AppID 7] Download failed due to conflicts in build list
+[2024-11-17 11:54:57] [Roaming Config] OnRemoteStorageSyncedClient() - result Remote File Conflict
+[2024-11-17 11:54:57] [AppID 760] Starting sync (Get App Quota Usage,)
+[2024-11-17 11:54:57] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 11:54:57] [AppID 760] GetAppQuotaUsage - Success
+[2024-11-17 11:54:57] [AppID 2371090] Starting sync (eval,)
+[2024-11-17 11:54:57] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-17 11:54:57] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-17 11:54:57] [AppID 2371090] Eval complete
+[2024-11-17 11:54:57] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-17 11:54:58] [AppID 7] FileRead() - Failed to open file 'serverbrowser_hist.vdf' via 'C:\Program Files (x86)\Steam\userdata\209452479\7\remote\serverbrowser_hist.vdf'
+[2024-11-17 11:55:51] [Roaming Config] PerformSyncCloud - conflict detected, accepting local files
+[2024-11-17 11:55:51] [AppID 7] Starting sync (up,resolve,)
+[2024-11-17 11:55:51] [AppID 7] Attempting to sync from local change number '0' to global change number '51' (full)
+[2024-11-17 11:55:51] [AppID 7] sharedconfig.vdf already marked as conflicting. Local/Remote SHA: 505901c56d4306259c0e08a91bebd541483178e3 / db706532310ecbb9a80417f90080c7fee5abafba, Local/Remote persist state: 0 / 0
+[2024-11-17 11:55:51] [AppID 7] Resolving file sharedconfig.vdf from state 4, bUseLocal = true
+[2024-11-17 11:55:51] [AppID 7] Resolving file serverbrowser_hist.vdf from state 2, bUseLocal = true
+[2024-11-17 11:55:51] [AppID 7] File serverbrowser_hist.vdf is not on disk and bUseLocal = true. Using remote version instead
+[2024-11-17 11:55:51] [AppID 7] Need to upload file sharedconfig.vdf
+[2024-11-17 11:55:51] [AppID 7] Need to download file serverbrowser_hist.vdf
+[2024-11-17 11:55:51] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-west1.storage.googleapis.com', path /BF/FD/7B/0C/7/002_7_12C3C14B_B3B52_2412.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1731862551&Signature=dMVK%2BVdWBbS19L%2Fp%2BlpYpJMtp6QDfQmtdUArzsc0C7bExVpnn8bNYeaJ%2BRY%2FEEEinGlXJIlQx2nhveNCcPepzFUN8m6AG%2FtpkibVRPBIrHQXCm%2FEAIoAwDV8%2FFOrnWGbc10V5mZNMF7NYeozAh1hihLrq7%2FXq2piciuhM80xhMo%3D, beginning. . .
+[2024-11-17 11:55:53] [AppID 7] HTTP download for file 'serverbrowser_hist.vdf' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2024-11-17 11:55:53] [AppID 7] Download OK for file serverbrowser_hist.vdf
+[2024-11-17 11:55:53] [AppID 7] Download complete, result OK
+[2024-11-17 11:55:53] [AppID 7] Successfully synced to ChangeNumber 51
+[2024-11-17 11:55:53] [AppID 7] Upload batch initiated, ID: 744247562798964181, ChangeNumber: 52, App Build ID: 0
+[2024-11-17 11:55:53] [AppID 7] HTTP upload for file 'sharedconfig.vdf' beginning . . .
+[2024-11-17 11:55:55] [AppID 7] HTTP upload for file 'sharedconfig.vdf' (offset=0, length=164) to (52.216.241.24 / 52.216.241.24, host: steamcloud-us-east.s3.dualstack.us-east-1.amazonaws.com), path /BF/FD/7B/0C/7/002_7_12C3B39B_2E5F5_173.dat?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEYAFUFLL3GRVB5Q%2F20241117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241117T155553Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=content-type%3Bhost&X-Amz-Signature=a61bf8d30a480fb8e2369302272691bd6d6c3cece2ff98dbb6e05f79c8ed4f47 - success.
+[2024-11-17 11:55:56] [AppID 7] Upload OK for file sharedconfig.vdf
+[2024-11-17 11:55:56] [AppID 7] Upload complete, result OK
+[2024-11-17 11:55:56] [Roaming Config] OnRemoteStorageConflictResolution - result OK
+[2024-11-17 11:55:56] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 11:56:51] [Roaming Config] PerformSyncCloud - all sync'd up
+[2024-11-17 12:41:46] [AppID 2371090] Starting sync (down,)
+[2024-11-17 12:41:47] [AppID 2371090] Attempting to sync from local change number '0' to global change number '0' (full)
+[2024-11-17 12:41:47] [AppID 2371090] Download complete in build list
+[2024-11-17 12:41:47] [AppID 2371090] Successfully synced to ChangeNumber 0
+[2024-11-17 12:41:47] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-17 12:43:05] [AppID 2281410] Starting sync (init,)
+[2024-11-17 12:43:05] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-17 12:43:05] [U:1:209452479] [AppID 2281410] Init cache request complete
+[2024-11-17 12:43:05] [AppID 2281410] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-17 12:43:06] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 12:43:52] [Roaming Config] PerformSyncCloud - syncing local files to cloud
+[2024-11-17 12:43:52] [AppID 7] Starting sync (up,)
+[2024-11-17 12:43:52] [AppID 7] Currently already synced to global change number '52', should be nothing to download
+[2024-11-17 12:43:52] [AppID 7] Need to upload file sharedconfig.vdf
+[2024-11-17 12:43:52] [AppID 7] Upload batch initiated, ID: 3967605391732413679, ChangeNumber: 53, App Build ID: 0
+[2024-11-17 12:43:53] [AppID 7] HTTP upload for file 'sharedconfig.vdf' beginning . . .
+[2024-11-17 12:43:53] [AppID 7] HTTP upload for file 'sharedconfig.vdf' (offset=0, length=230) to (142.250.176.219 / 142.250.176.219, host: steamcloud-us-west1.storage.googleapis.com), path /BF/FD/7B/0C/7/002_7_12C3B39B_2E5F5_174.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1731865432&Signature=A1gDRMzasn2I9Ek6v%2BaxLY3lI23NnnkY2DOf4MIbHXxKELL1sKGwP1GEC0Mswc6bkhJl4ikxSe6D8LUqdDcu7jmqIoo26j8zfv9rsGvpZILHfmVYIp5FxKkpSURCJ7EigeEfzPj%2BgubZlf3UZV5cH92L9xSFRSTziECck%2BlMX4M%3D - success.
+[2024-11-17 12:43:53] [AppID 7] Upload OK for file sharedconfig.vdf
+[2024-11-17 12:43:54] [AppID 7] Upload complete, result OK
+[2024-11-17 12:43:54] [Roaming Config] OnRemoteStorageSyncedServer - result OK
+[2024-11-17 12:43:54] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 12:43:54] [AppID 2281410] Starting sync (eval,)
+[2024-11-17 12:43:54] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-17 12:43:55] [AppID 2281410] Need to sync from local change number '0' to global change number '5' (full), but not attempting now
+[2024-11-17 12:43:55] [AppID 2281410] Need to download file Save/blueprint
+[2024-11-17 12:43:55] [AppID 2281410] Need to download file Save/saveInfo.info
+[2024-11-17 12:43:55] [AppID 2281410] Need to download file Save/save_1731111269_0.sav
+[2024-11-17 12:43:55] [AppID 2281410] Need to download file Save/save_1731111269_0.savns
+[2024-11-17 12:43:55] [AppID 2281410] Eval complete
+[2024-11-17 12:43:56] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-17 12:43:59] [AppID 2281410] Starting sync (down,)
+[2024-11-17 12:43:59] [AppID 2281410] Attempting to sync from local change number '0' to global change number '5' (full)
+[2024-11-17 12:43:59] [AppID 2281410] Need to download file Save/blueprint
+[2024-11-17 12:43:59] [AppID 2281410] Need to download file Save/saveInfo.info
+[2024-11-17 12:43:59] [AppID 2281410] Need to download file Save/save_1731111269_0.sav
+[2024-11-17 12:43:59] [AppID 2281410] Need to download file Save/save_1731111269_0.savns
+[2024-11-17 12:43:59] [AppID 2281410] HTTP download for file 'Save/blueprint' from host 'steamcloud-us-west1.storage.googleapis.com', path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB423_1.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1731865439&Signature=Omi06JMpFPWRkXDwrCYbvksQubE43DMVFRCBFg97fsA23tOK7NHPqLCMtRFgO9c5MYJ0JvCjvIRCZ%2FZVnxsgWBBatENFtz4yPW9%2F%2BcjcymJ2B5PUtYqzEAQvKdLCUQYyrePGqSnyKj3RzC8wov%2FfB7dlsbFxHMQolIwlyrAU69g%3D, beginning. . .
+[2024-11-17 12:43:59] [AppID 2281410] HTTP download for file 'Save/saveInfo.info' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com', path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB421_5.dat?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEYAFUFLL3GRVB5Q%2F20241117%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20241117T164359Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c523071ae4b9d8cecad18a6911fce7d9f8040fdc466da25c9bd2774d6e819d72, beginning. . .
+[2024-11-17 12:43:59] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.sav' from host 'steamcloud-us-east1.storage.googleapis.com', path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB422_5.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1731865439&Signature=WiyyRywlDhhbfxUJwBhswFfw%2B7H55U1bxiLdRPtw9BLKamACONwIAjAvq0zRol0gTHVjfXLqNJCyiierbzyZqqib%2FSI1%2BsQvbrqT5Gw79BGM07eOrZwbU1D8KLEy9zJc6x18f2PhOfkARSVP1XfLvKKv6m8aeMT065rQpsfcI5c%3D, beginning. . .
+[2024-11-17 12:43:59] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.savns' from host 'steamcloud-us-west1.storage.googleapis.com', path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB424_2.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1731865439&Signature=bBAAuk%2BqmhU0iQCWgd6Jai1Js5WS6YBnGnJc8Y5zctYyylr%2F01hxhZJXklQJM36MXlK7KLwVHDM6PIPoNcRYKK23Qa56Oyb84r4QCftigusWwqUu1fttnHeQruULeLH84CrkmbFe9Nhb4XM0iu7FtsSKovvXQEqZb7%2B%2FpD%2FOJR0%3D, beginning. . .
+[2024-11-17 12:43:59] [AppID 2281410] HTTP download for file 'Save/blueprint' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2024-11-17 12:43:59] [AppID 2281410] Download OK for file Save/blueprint
+[2024-11-17 12:44:05] [AppID 2281410] HTTP download for file 'Save/saveInfo.info' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com' - Success.
+[2024-11-17 12:44:05] [AppID 2281410] Download OK for file Save/saveInfo.info
+[2024-11-17 12:44:05] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.savns' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2024-11-17 12:44:05] [AppID 2281410] Download OK for file Save/save_1731111269_0.savns
+[2024-11-17 12:44:05] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.sav' from host 'steamcloud-us-east1.storage.googleapis.com' - Success.
+[2024-11-17 12:44:05] [AppID 2281410] Download OK for file Save/save_1731111269_0.sav
+[2024-11-17 12:44:05] [AppID 2281410] Download complete, result OK
+[2024-11-17 12:44:05] [AppID 2281410] Successfully synced to ChangeNumber 5
+[2024-11-17 12:44:05] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-17 12:44:52] [Roaming Config] PerformSyncCloud - all sync'd up
+[2024-11-17 12:46:41] [AppID 228980] Starting sync (init,)
+[2024-11-17 12:46:41] [AppID 228980] AutoCloud checking local state for user 209452479
+[2024-11-17 12:46:41] [AppID 228980] Not running AutoCloud. No config data found
+[2024-11-17 12:46:41] [U:1:209452479] [AppID 228980] Init cache request complete
+[2024-11-17 12:46:41] [AppID 228980] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/228980/remotecache.vdf'
+[2024-11-17 14:15:30] ResumeSuspendedGames...
+[2024-11-17 15:16:04] ResumeSuspendedGames...
+[2024-11-17 15:16:11] [AppID 7] Starting sync (down,)
+[2024-11-17 15:16:12] [AppID 7] Currently already synced to global change number '53', should be nothing to download
+[2024-11-17 15:16:12] [AppID 7] Download complete in build list
+[2024-11-17 15:16:12] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-17 15:16:12] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-17 15:16:12] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 15:29:57] [AppID 2281410] Starting sync (AC Launch,down,)
+[2024-11-17 15:29:57] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-17 15:29:57] [AppID 2281410] Currently already synced to global change number '5', should be nothing to download
+[2024-11-17 15:29:57] [AppID 2281410] Download complete in build list
+[2024-11-17 15:29:57] [AppID 2281410] Successfully synced to ChangeNumber 0
+[2024-11-17 15:29:57] [AppID 2281410] Running AutoCloud on launch. Looking for existing files to watch:
+[2024-11-17 15:29:57] [AppID 2281410]     Watching file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\save_1731111269_0.savns
+[2024-11-17 15:29:57] [AppID 2281410]     Watching file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\save_1731111269_0.sav
+[2024-11-17 15:29:57] [AppID 2281410]     Watching file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\saveInfo.info
+[2024-11-17 15:29:57] [AppID 2281410]     Watching file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\blueprint
+[2024-11-17 15:29:57] [AppID 2281410] AutoCloud done. Watching 4 files
+[2024-11-17 15:29:57] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-17 15:30:01] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 15:30:04] [Roaming Config] PerformSyncCloud - syncing local files to cloud
+[2024-11-17 15:30:04] [AppID 7] Starting sync (up,)
+[2024-11-17 15:30:04] [AppID 7] Currently already synced to global change number '53', should be nothing to download
+[2024-11-17 15:30:04] [AppID 7] Need to upload file serverbrowser_hist.vdf
+[2024-11-17 15:30:04] [AppID 7] Upload batch initiated, ID: 3593596374081993194, ChangeNumber: 54, App Build ID: 0
+[2024-11-17 15:30:05] [AppID 7] HTTP upload for file 'serverbrowser_hist.vdf' beginning . . .
+[2024-11-17 15:30:05] [AppID 7] HTTP upload for file 'serverbrowser_hist.vdf' (offset=0, length=2475) to (54.231.225.50 / 54.231.225.50, host: steamcloud-us-east.s3.dualstack.us-east-1.amazonaws.com), path /BF/FD/7B/0C/7/002_7_12C3C14B_B3B52_2413.dat?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEYAFUFLL3GRVB5Q%2F20241117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241117T193004Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=content-type%3Bhost&X-Amz-Signature=8f9d0a274507bd02de2b123fb3e3ea7ad6027b5136cfa473f46db29df28d0056 - success.
+[2024-11-17 15:30:05] [AppID 7] Upload OK for file serverbrowser_hist.vdf
+[2024-11-17 15:30:05] [AppID 7] Upload complete, result OK
+[2024-11-17 15:30:05] [Roaming Config] OnRemoteStorageSyncedServer - result OK
+[2024-11-17 15:30:06] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 15:31:04] [Roaming Config] PerformSyncCloud - all sync'd up
+[2024-11-17 15:50:26] [AppID 2371090] Starting sync (down,)
+[2024-11-17 15:50:26] [AppID 2371090] Attempting to sync from local change number '0' to global change number '0' (full)
+[2024-11-17 15:50:26] [AppID 2371090] Download complete in build list
+[2024-11-17 15:50:26] [AppID 2371090] Successfully synced to ChangeNumber 0
+[2024-11-17 15:50:26] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-17 19:35:05] [AppID 2281410] Starting sync (up,AC Exit,)
+[2024-11-17 19:35:05] [AppID 2281410] Running AutoCloud on exit. Looking for new and updated files
+[2024-11-17 19:35:05] [AppID 2281410]     Evaluating rule 0 with root="GameInstall" path="Save" pattern="*"
+[2024-11-17 19:35:05] [AppID 2281410]         Found 4 files that match C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\*
+[2024-11-17 19:35:05] [AppID 2281410]     Persisting file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\save_1731111269_0.sav to the cloud
+[2024-11-17 19:35:05] [AppID 2281410]     Persisting file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\save_1731111269_0.savns to the cloud
+[2024-11-17 19:35:05] [AppID 2281410]     Persisting file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\saveInfo.info to the cloud
+[2024-11-17 19:35:05] [AppID 2281410]     Persisting file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\blueprint to the cloud
+[2024-11-17 19:35:05] [AppID 2281410] AutoCloud complete
+[2024-11-17 19:35:05] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-17 19:35:05] [AppID 2281410] Currently already synced to global change number '5', should be nothing to download
+[2024-11-17 19:35:05] [AppID 2281410] Need to upload file Save/blueprint
+[2024-11-17 19:35:05] [AppID 2281410] Need to upload file Save/saveInfo.info
+[2024-11-17 19:35:05] [AppID 2281410] Need to upload file Save/save_1731111269_0.sav
+[2024-11-17 19:35:05] [AppID 2281410] Need to upload file Save/save_1731111269_0.savns
+[2024-11-17 19:35:06] [AppID 2281410] Upload batch initiated, ID: 5622443642363618569, ChangeNumber: 6, App Build ID: 15796085
+[2024-11-17 19:35:06] [AppID 2281410] HTTP upload for file 'Save/saveInfo.info' beginning . . .
+[2024-11-17 19:35:06] [AppID 2281410] HTTP upload for file 'Save/save_1731111269_0.sav' beginning . . .
+[2024-11-17 19:35:06] [AppID 2281410] HTTP upload for file 'Save/save_1731111269_0.savns' beginning . . .
+[2024-11-17 19:35:06] [AppID 2281410] Upload OK for file Save/blueprint
+[2024-11-17 19:35:06] [AppID 2281410] HTTP upload for file 'Save/save_1731111269_0.sav' (offset=0, length=34258) to (52.95.147.140 / 52.95.147.140, host: steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com), path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB422_6.dat?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEYAFUFLL3GRVB5Q%2F20241117%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20241117T233505Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=content-type%3Bhost&X-Amz-Signature=7e75ca728b4368b65c1492d4ada94c9cbd6738f66e9f90af8216815d4413dd3c - success.
+[2024-11-17 19:35:06] [AppID 2281410] HTTP upload for file 'Save/saveInfo.info' (offset=0, length=1595) to (142.250.80.91 / 142.250.80.91, host: steamcloud-us-east1.storage.googleapis.com), path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB421_6.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1731890105&Signature=Qahgzeg7840iO%2F1XmttUKvXZ0fyEmELlRCBu2D9EBAMkl%2Bs4PrAYysX9QVhTcDGdYZq4tx0N79l1XD8GxRvvjnkgbLeQfDviN3Jz3OW0YcbIklXCaoQWOWXjelWF%2BHPQu%2B%2BJsanieXNL4TzzQ2CpwwkACZ0XX5sCHIdS4IfTCyQ%3D - success.
+[2024-11-17 19:35:07] [AppID 2281410] Upload OK for file Save/save_1731111269_0.sav
+[2024-11-17 19:35:07] [AppID 2281410] HTTP upload for file 'Save/save_1731111269_0.savns' (offset=0, length=35224) to (142.251.40.187 / 142.251.40.187, host: steamcloud-us-west1.storage.googleapis.com), path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB424_3.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1731890105&Signature=cSriRhiYFYiE9NeJ5nqy5R6pEeV8sx9jxBrpPTxT040%2BHQ0pl0nxturDmYBNy2m9jXdIj%2FXvyNO9MoCfKdOFaEsGbOJZRGVZa0jldVLny5ELHXuSWK%2BNAH70%2Bsx0arQsUoSVK5RlalUS%2FlTwBier0AE9VJgzBSTRdg02hVHZtJg%3D - success.
+[2024-11-17 19:35:07] [AppID 2281410] Upload OK for file Save/saveInfo.info
+[2024-11-17 19:35:07] [AppID 2281410] Upload OK for file Save/save_1731111269_0.savns
+[2024-11-17 19:35:07] [AppID 2281410] Upload complete, result OK
+[2024-11-17 19:35:07] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-17 20:08:00] ResumeSuspendedGames...
+[2024-11-17 20:08:19] [AppID 7] Starting sync (down,)
+[2024-11-17 20:08:19] [AppID 7] Currently already synced to global change number '54', should be nothing to download
+[2024-11-17 20:08:19] [AppID 7] Download complete in build list
+[2024-11-17 20:08:19] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-17 20:08:19] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-17 20:08:19] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+
+
+[2024-11-17 20:11:41] Client version: 1731433018
+[2024-11-17 20:11:41] [AppID 7] Starting sync (init,)
+[2024-11-17 20:11:41] [AppID 7] AutoCloud checking local state for user 209452479
+[2024-11-17 20:11:41] [U:1:209452479] [AppID 7] Init cache request complete
+[2024-11-17 20:11:41] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 20:11:43] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2024-11-17 20:11:43] [AppID 7] Starting sync (eval,)
+[2024-11-17 20:11:43] [AppID 7] AutoCloud checking local state for user 209452479
+[2024-11-17 20:11:43] [AppID 7] Currently already synced to global change number '54', should be nothing to download
+[2024-11-17 20:11:43] [AppID 7] File is in sync sharedconfig.vdf
+[2024-11-17 20:11:43] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2024-11-17 20:11:43] [AppID 7] Eval complete
+[2024-11-17 20:11:43] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2024-11-17 20:11:43] [AppID 7] Starting sync (down,)
+[2024-11-17 20:11:43] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 20:11:44] [AppID 7] Currently already synced to global change number '54', should be nothing to download
+[2024-11-17 20:11:44] [AppID 7] Download complete in build list
+[2024-11-17 20:11:44] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-17 20:11:44] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-17 20:11:44] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 20:11:44] [AppID 760] Starting sync (Get App Quota Usage,)
+[2024-11-17 20:11:44] [AppID 760] GetAppQuotaUsage - Success
+[2024-11-17 20:11:44] [AppID 2371090] Starting sync (eval,)
+[2024-11-17 20:11:44] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-17 20:11:44] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-17 20:11:44] [AppID 2371090] Eval complete
+[2024-11-17 20:11:44] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-17 20:11:44] [AppID 2281410] Starting sync (eval,)
+[2024-11-17 20:11:44] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-17 20:11:45] [AppID 2281410] Currently already synced to global change number '6', should be nothing to download
+[2024-11-17 20:11:45] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-17 20:11:45] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-17 20:11:45] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-17 20:11:45] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-17 20:11:45] [AppID 2281410] Eval complete
+[2024-11-17 20:11:45] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-17 20:12:43] [Roaming Config] PerformSyncCloud - all sync'd up
+[2024-11-17 20:36:14] ResumeSuspendedGames...
+[2024-11-17 20:36:31] [AppID 7] Starting sync (down,)
+[2024-11-17 20:36:31] [AppID 7] Currently already synced to global change number '54', should be nothing to download
+[2024-11-17 20:36:31] [AppID 7] Download complete in build list
+[2024-11-17 20:36:31] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-17 20:36:31] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-17 20:36:31] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-17 20:39:28] [AppID 2281410] Starting sync (AC Launch,down,)
+[2024-11-17 20:39:28] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-17 20:39:28] [AppID 2281410] Currently already synced to global change number '6', should be nothing to download
+[2024-11-17 20:39:28] [AppID 2281410] Download complete in build list
+[2024-11-17 20:39:28] [AppID 2281410] Successfully synced to ChangeNumber 0
+[2024-11-17 20:39:28] [AppID 2281410] Running AutoCloud on launch. Looking for existing files to watch:
+[2024-11-17 20:39:28] [AppID 2281410]     Watching file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\save_1731111269_0.savns
+[2024-11-17 20:39:28] [AppID 2281410]     Watching file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\save_1731111269_0.sav
+[2024-11-17 20:39:28] [AppID 2281410]     Watching file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\saveInfo.info
+[2024-11-17 20:39:28] [AppID 2281410]     Watching file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\blueprint
+[2024-11-17 20:39:28] [AppID 2281410] AutoCloud done. Watching 4 files
+[2024-11-17 20:39:28] [AppID 2371090] Starting sync (down,)
+[2024-11-17 20:39:28] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-17 20:39:28] [AppID 2371090] Attempting to sync from local change number '0' to global change number '0' (full)
+[2024-11-17 20:39:28] [AppID 2371090] Download complete in build list
+[2024-11-17 20:39:28] [AppID 2371090] Successfully synced to ChangeNumber 0
+[2024-11-17 20:39:28] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-18 08:25:20] ResumeSuspendedGames...
+[2024-11-18 08:25:29] [AppID 7] Starting sync (down,)
+[2024-11-18 08:25:29] [AppID 7] Currently already synced to global change number '54', should be nothing to download
+[2024-11-18 08:25:29] [AppID 7] Download complete in build list
+[2024-11-18 08:25:29] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-18 08:25:29] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-18 08:25:29] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-18 08:25:29] [AppID 2371090] Starting sync (eval,)
+[2024-11-18 08:25:29] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-18 08:25:29] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-18 08:25:29] [AppID 2371090] Eval complete
+[2024-11-18 08:25:29] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+
+
+[2024-11-19 18:55:22] Client version: 1731433018
+[2024-11-19 18:55:22] [AppID 7] Starting sync (init,)
+[2024-11-19 18:55:22] [AppID 7] AutoCloud checking local state for user 209452479
+[2024-11-19 18:55:22] [U:1:209452479] [AppID 7] Init cache request complete
+[2024-11-19 18:55:22] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-19 18:55:27] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2024-11-19 18:55:27] [AppID 7] Starting sync (eval,)
+[2024-11-19 18:55:27] [AppID 7] AutoCloud checking local state for user 209452479
+[2024-11-19 18:55:27] [AppID 7] Need to sync from local change number '54' to global change number '56' (full), but not attempting now
+[2024-11-19 18:55:27] [AppID 7] File is in sync sharedconfig.vdf
+[2024-11-19 18:55:27] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2024-11-19 18:55:27] [AppID 7] Eval complete
+[2024-11-19 18:55:27] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2024-11-19 18:55:27] [AppID 7] Starting sync (down,)
+[2024-11-19 18:55:27] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-19 18:55:28] [AppID 7] Attempting to sync from local change number '54' to global change number '56' (full)
+[2024-11-19 18:55:28] [AppID 7] Download complete in build list
+[2024-11-19 18:55:28] [AppID 7] Successfully synced to ChangeNumber 56
+[2024-11-19 18:55:28] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-19 18:55:28] [AppID 2371090] Starting sync (eval,)
+[2024-11-19 18:55:28] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-19 18:55:28] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-19 18:55:28] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-19 18:55:28] [AppID 2371090] Eval complete
+[2024-11-19 18:55:28] [AppID 760] Starting sync (Get App Quota Usage,)
+[2024-11-19 18:55:28] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-19 18:55:28] [AppID 760] GetAppQuotaUsage - Success
+[2024-11-19 18:55:50] [AppID 2281410] Starting sync (eval,)
+[2024-11-19 18:55:50] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-19 18:55:50] [AppID 2281410] AutoCloud detected incomplete sync after previous run
+[2024-11-19 18:55:50] [AppID 2281410] Running AutoCloud on exit. Looking for new and updated files
+[2024-11-19 18:55:50] [AppID 2281410]     Evaluating rule 0 with root="GameInstall" path="Save" pattern="*"
+[2024-11-19 18:55:50] [AppID 2281410]         Found 4 files that match C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\*
+[2024-11-19 18:55:50] [AppID 2281410]     No launch record found. Skipping looking for files while the game was running
+[2024-11-19 18:55:50] [AppID 2281410]     Persisting file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\save_1731111269_0.savns to the cloud
+[2024-11-19 18:55:50] [AppID 2281410]	Skipping un-modified file Save/save_1731111269_0.savns
+[2024-11-19 18:55:50] [AppID 2281410]     Persisting file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\save_1731111269_0.sav to the cloud
+[2024-11-19 18:55:50] [AppID 2281410]     Persisting file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\saveInfo.info to the cloud
+[2024-11-19 18:55:50] [AppID 2281410]     Persisting file C:\Program Files (x86)\Steam\steamapps\common\JiangCity\Save\blueprint to the cloud
+[2024-11-19 18:55:50] [AppID 2281410] AutoCloud complete
+[2024-11-19 18:55:50] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-19 18:55:50] [AppID 2281410] Currently already synced to global change number '6', should be nothing to download
+[2024-11-19 18:55:50] [AppID 2281410] Need to upload file Save/blueprint
+[2024-11-19 18:55:50] [AppID 2281410] Need to upload file Save/saveInfo.info
+[2024-11-19 18:55:50] [AppID 2281410] Need to upload file Save/save_1731111269_0.sav
+[2024-11-19 18:55:50] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-19 18:55:50] [AppID 2281410] Eval complete
+[2024-11-19 18:55:50] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-19 18:55:51] [AppID 2281410] Starting sync (up,)
+[2024-11-19 18:55:51] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-19 18:55:52] [AppID 2281410] Currently already synced to global change number '6', should be nothing to download
+[2024-11-19 18:55:52] [AppID 2281410] Need to upload file Save/blueprint
+[2024-11-19 18:55:52] [AppID 2281410] Need to upload file Save/saveInfo.info
+[2024-11-19 18:55:52] [AppID 2281410] Need to upload file Save/save_1731111269_0.sav
+[2024-11-19 18:55:52] [AppID 2281410] Upload batch initiated, ID: 7494403751365002058, ChangeNumber: 7, App Build ID: 15796085
+[2024-11-19 18:55:52] [AppID 2281410] Upload OK for file Save/blueprint
+[2024-11-19 18:55:52] [AppID 2281410] HTTP upload for file 'Save/saveInfo.info' beginning . . .
+[2024-11-19 18:55:52] [AppID 2281410] HTTP upload for file 'Save/save_1731111269_0.sav' beginning . . .
+[2024-11-19 18:55:53] [AppID 2281410] HTTP upload for file 'Save/save_1731111269_0.sav' (offset=0, length=34218) to (2607:f8b0:400b:804::201b / 2607:f8b0:400b:804::201b, host: steamcloud-us-east1.storage.googleapis.com), path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB422_7.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1732060549&Signature=Tjj5heCdl2lRELXp51E3AFCm5xwl742mKeSH7e8XedmH9F4SnXIKz0op2aT2Ff1cz4TK6R9gjfPaGxLDhNgsfmuvboLR9xrxBnDxE0VlfCzYEZP1QAbIcPj1f2rt%2FkXc%2FkzKSdC8uqdqJ7R%2F8%2Fget2azYpY2uJwA8%2B4aMCDRd9s%3D - success.
+[2024-11-19 18:55:54] [AppID 2281410] HTTP upload for file 'Save/saveInfo.info' (offset=0, length=1793) to (2607:f8b0:400b:804::201b / 2607:f8b0:400b:804::201b, host: steamcloud-us-west1.storage.googleapis.com), path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB421_7.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1732060549&Signature=E2tAtfhUT23PPPgS0m%2FpqxKOjkWUiATMOiAqwX8C6%2F5DOynYesX17o4DraD6J5OpADT576hGu4DIYOiBOvHROwGCXRQchQbujKK%2B5QcAkXLCRV2fHLNKdynz%2F0FCWE%2BYochKxbhJ58%2FCb4cUrisGnQFV19FWdeB1ScxBtt35kbU%3D - success.
+[2024-11-19 18:55:54] [AppID 2281410] Upload OK for file Save/save_1731111269_0.sav
+[2024-11-19 18:55:54] [AppID 2281410] Upload OK for file Save/saveInfo.info
+[2024-11-19 18:55:54] [AppID 2281410] Upload complete, result OK
+[2024-11-19 18:55:55] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-19 18:56:07] [AppID 2371090] Starting sync (down,)
+[2024-11-19 18:56:07] [AppID 2371090] Attempting to sync from local change number '0' to global change number '0' (full)
+[2024-11-19 18:56:07] [AppID 2371090] Download complete in build list
+[2024-11-19 18:56:07] [AppID 2371090] Successfully synced to ChangeNumber 0
+[2024-11-19 18:56:07] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-19 18:56:27] [Roaming Config] PerformSyncCloud - syncing local files to cloud
+[2024-11-19 18:56:27] [AppID 7] Starting sync (up,)
+[2024-11-19 18:56:28] [AppID 7] Currently already synced to global change number '56', should be nothing to download
+[2024-11-19 18:56:28] [AppID 7] Need to upload file serverbrowser_hist.vdf
+[2024-11-19 18:56:28] [AppID 7] Upload batch initiated, ID: 7725145686996161476, ChangeNumber: 57, App Build ID: 0
+[2024-11-19 18:56:28] [AppID 7] Upload OK for file serverbrowser_hist.vdf
+[2024-11-19 18:56:29] [AppID 7] Upload complete, result OK
+[2024-11-19 18:56:29] [Roaming Config] OnRemoteStorageSyncedServer - result OK
+[2024-11-19 18:56:29] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-19 18:57:27] [Roaming Config] PerformSyncCloud - all sync'd up
+[2024-11-19 19:04:26] ResumeSuspendedGames...
+[2024-11-19 19:12:20] ResumeSuspendedGames...
+[2024-11-19 19:12:21] [AppID 2281410] Starting sync (eval,)
+[2024-11-19 19:12:21] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-19 19:12:21] [AppID 2281410] Failed sync for 'eval,' [login=false][offlineMode=false]
+[2024-11-19 19:12:21] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-19 20:50:05] ResumeSuspendedGames...
+[2024-11-19 20:50:05] ResumeSuspendedGames...
+[2024-11-19 21:54:47] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2024-11-19 21:54:47] [AppID 7] Starting sync (eval,)
+[2024-11-19 21:54:47] [AppID 7] AutoCloud checking local state for user 209452479
+[2024-11-19 21:54:47] [AppID 7] BYieldingBuildFileListToSync Failed for 'eval,'
+[2024-11-19 21:54:47] [Roaming Config] OnRemoteStorageStateEvaluated - result Failure
+[2024-11-19 21:54:47] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-19 21:54:47] ResumeSuspendedGames...
+[2024-11-19 21:54:49] ResumeSuspendedGames...
+[2024-11-19 21:54:50] ResumeSuspendedGames...
+[2024-11-19 21:55:09] [AppID 7] Starting sync (down,)
+[2024-11-19 21:55:09] [AppID 7] Currently already synced to global change number '57', should be nothing to download
+[2024-11-19 21:55:09] [AppID 7] Download complete in build list
+[2024-11-19 21:55:09] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-19 21:55:09] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-19 21:55:09] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-19 21:55:10] [AppID 2371090] Starting sync (eval,)
+[2024-11-19 21:55:10] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-19 21:55:10] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-19 21:55:10] [AppID 2371090] Eval complete
+[2024-11-19 21:55:10] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-19 21:55:10] [AppID 2281410] Starting sync (eval,)
+[2024-11-19 21:55:10] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-19 21:55:10] [AppID 2281410] Currently already synced to global change number '7', should be nothing to download
+[2024-11-19 21:55:10] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-19 21:55:10] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-19 21:55:10] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-19 21:55:10] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-19 21:55:10] [AppID 2281410] Eval complete
+[2024-11-19 21:55:10] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-19 21:55:47] [Roaming Config] PerformSyncCloud - all sync'd up
+[2024-11-19 22:00:51] ResumeSuspendedGames...
+[2024-11-19 22:01:14] [AppID 7] Starting sync (down,)
+[2024-11-19 22:01:15] [AppID 7] Currently already synced to global change number '57', should be nothing to download
+[2024-11-19 22:01:15] [AppID 7] Download complete in build list
+[2024-11-19 22:01:15] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-19 22:01:15] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-19 22:01:15] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-20 01:06:17] ResumeSuspendedGames...
+[2024-11-20 01:06:22] [AppID 7] Starting sync (down,)
+[2024-11-20 01:06:23] [AppID 7] Currently already synced to global change number '57', should be nothing to download
+[2024-11-20 01:06:23] [AppID 7] Download complete in build list
+[2024-11-20 01:06:23] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-20 01:06:23] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-20 01:06:23] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-20 01:07:23] ResumeSuspendedGames...
+[2024-11-20 01:07:24] ResumeSuspendedGames...
+[2024-11-20 01:07:26] ResumeSuspendedGames...
+[2024-11-20 01:07:48] [AppID 7] Starting sync (down,)
+[2024-11-20 01:07:48] [AppID 7] Currently already synced to global change number '57', should be nothing to download
+[2024-11-20 01:07:48] [AppID 7] Download complete in build list
+[2024-11-20 01:07:48] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-20 01:07:48] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-20 01:07:48] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-20 01:07:48] [AppID 2371090] Starting sync (eval,)
+[2024-11-20 01:07:48] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-20 01:07:49] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-20 01:07:49] [AppID 2371090] Eval complete
+[2024-11-20 01:07:49] [AppID 2281410] Starting sync (eval,)
+[2024-11-20 01:07:49] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-20 01:07:49] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-20 01:07:49] [AppID 2281410] Need to sync from local change number '7' to global change number '8' (full), but not attempting now
+[2024-11-20 01:07:49] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-20 01:07:49] [AppID 2281410] Need to download file Save/saveInfo.info
+[2024-11-20 01:07:49] [AppID 2281410] Need to download file Save/save_1731111269_0.sav
+[2024-11-20 01:07:49] [AppID 2281410] Need to download file Save/save_1731111269_0.savns
+[2024-11-20 01:07:49] [AppID 2281410] Eval complete
+[2024-11-20 01:07:49] [AppID 2281410] Starting sync (down,)
+[2024-11-20 01:07:49] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-20 01:07:49] [AppID 2281410] Attempting to sync from local change number '7' to global change number '8' (full)
+[2024-11-20 01:07:49] [AppID 2281410] Need to download file Save/saveInfo.info
+[2024-11-20 01:07:49] [AppID 2281410] Need to download file Save/save_1731111269_0.sav
+[2024-11-20 01:07:49] [AppID 2281410] Need to download file Save/save_1731111269_0.savns
+[2024-11-20 01:07:49] [AppID 2281410] HTTP download for file 'Save/saveInfo.info' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com', path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB421_8.dat?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEYAFUFLL3GRVB5Q%2F20241120%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20241120T050746Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=3b7523bdb194be49a5bd5ea39ace830049db99109ab0dff12227c046acb504e2, beginning. . .
+[2024-11-20 01:07:49] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.sav' from host 'steamcloud-us-east1.storage.googleapis.com', path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB422_8.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1732082866&Signature=dTdPSPaqY9jUbjDH2Yo%2F5klfB1rKINdH1q9gRMl1HSHMFE8Un9zBQcVX%2BIgk9fLqfAfNd5mHuw8OUp4CNNibsPf7CpnOtmvNkvu9dZdZfd4%2BCZETC2Q6bvJrGypL4RMecKZ3Bw2xEex69bpNdLCaH9ez3adFaoVj3cdwcYV2NPM%3D, beginning. . .
+[2024-11-20 01:07:49] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.savns' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com', path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB424_4.dat?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEYAFUFLL3GRVB5Q%2F20241120%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20241120T050746Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ef81023be530e2f85ec1eae64dfe19ef1e6b00d5d7cae64366aae4b6e7f3f69c, beginning. . .
+[2024-11-20 01:07:50] [AppID 2281410] HTTP download for file 'Save/saveInfo.info' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com' - Success.
+[2024-11-20 01:07:50] [AppID 2281410] Download OK for file Save/saveInfo.info
+[2024-11-20 01:07:50] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.savns' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com' - Success.
+[2024-11-20 01:07:50] [AppID 2281410] Download OK for file Save/save_1731111269_0.savns
+[2024-11-20 01:07:50] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.sav' from host 'steamcloud-us-east1.storage.googleapis.com' - Success.
+[2024-11-20 01:07:50] [AppID 2281410] Download OK for file Save/save_1731111269_0.sav
+[2024-11-20 01:07:50] [AppID 2281410] Download complete, result OK
+[2024-11-20 01:07:50] [AppID 2281410] Successfully synced to ChangeNumber 8
+[2024-11-20 01:07:51] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-20 13:08:12] ResumeSuspendedGames...
+[2024-11-20 14:18:52] ResumeSuspendedGames...
+[2024-11-20 18:58:44] ResumeSuspendedGames...
+[2024-11-20 18:59:11] [AppID 7] Starting sync (down,)
+[2024-11-20 18:59:12] [AppID 7] Attempting to sync from local change number '57' to global change number '58' (full)
+[2024-11-20 18:59:12] [AppID 7] Download complete in build list
+[2024-11-20 18:59:12] [AppID 7] Successfully synced to ChangeNumber 58
+[2024-11-20 18:59:12] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-20 18:59:12] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-20 19:12:58] ResumeSuspendedGames...
+[2024-11-20 19:13:09] [AppID 7] Starting sync (down,)
+[2024-11-20 19:13:09] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-20 19:13:09] [AppID 7] Download complete in build list
+[2024-11-20 19:13:09] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-20 19:13:09] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-20 19:13:09] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-20 19:13:09] [AppID 2371090] Starting sync (eval,)
+[2024-11-20 19:13:09] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-20 19:13:10] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-20 19:13:10] [AppID 2371090] Eval complete
+[2024-11-20 19:13:10] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-20 19:13:10] [AppID 2281410] Starting sync (eval,)
+[2024-11-20 19:13:10] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-20 19:13:10] [AppID 2281410] Need to sync from local change number '8' to global change number '9' (full), but not attempting now
+[2024-11-20 19:13:10] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-20 19:13:10] [AppID 2281410] Need to download file Save/saveInfo.info
+[2024-11-20 19:13:10] [AppID 2281410] Need to download file Save/save_1731111269_0.sav
+[2024-11-20 19:13:10] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-20 19:13:10] [AppID 2281410] Eval complete
+[2024-11-20 19:13:10] [AppID 2281410] Starting sync (down,)
+[2024-11-20 19:13:10] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-20 19:13:11] [AppID 2281410] Attempting to sync from local change number '8' to global change number '9' (full)
+[2024-11-20 19:13:11] [AppID 2281410] Need to download file Save/saveInfo.info
+[2024-11-20 19:13:11] [AppID 2281410] Need to download file Save/save_1731111269_0.sav
+[2024-11-20 19:13:11] [AppID 2281410] HTTP download for file 'Save/saveInfo.info' from host 'steamcloud-us-west1.storage.googleapis.com', path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB421_9.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1732147991&Signature=Nupk9%2BSgHbTwH0j1oI5q2pKSTQUjrfonoVDYtnmTTRXwTAhl7a9QWZNBUXPeoZieNdaBdm8IOjX3GdF45M58DNCU0M8V%2BTSPV7jDBFXLgMl%2Fjqc9Ywr9O4LYtY%2F%2FoJfxnZi4pna6p7I7jEWbKGQZGI24PEB8l9jyE0J3Dbr%2BXwI%3D, beginning. . .
+[2024-11-20 19:13:11] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.sav' from host 'steamcloud-us-west1.storage.googleapis.com', path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB422_9.dat?GoogleAccessId=1034790105812-5bdngop952i7sjvk3q8dm3nur4tlg4vb@developer.gserviceaccount.com&Expires=1732147991&Signature=ALs6p3Fh2xc9XHsP%2F3gVGCNxZZqttD%2B2oqgMmO6f4bl8t7%2Fd25gFpMFOL1rmB0rc2PzMgiA4nmy1hO%2FxiqJ2cj1DOVpF%2BLZa0VpDlqbNdYSjZZnhO8fKIDLEovSvZysNdymVbvzZjDymPmtdcUam4IRn3LVJ1tpV%2BBsIpkAwV2w%3D, beginning. . .
+[2024-11-20 19:13:12] [AppID 2281410] HTTP download for file 'Save/saveInfo.info' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2024-11-20 19:13:12] [AppID 2281410] Download OK for file Save/saveInfo.info
+[2024-11-20 19:13:12] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.sav' from host 'steamcloud-us-west1.storage.googleapis.com' - Success.
+[2024-11-20 19:13:12] [AppID 2281410] Download OK for file Save/save_1731111269_0.sav
+[2024-11-20 19:13:12] [AppID 2281410] Download complete, result OK
+[2024-11-20 19:13:12] [AppID 2281410] Successfully synced to ChangeNumber 9
+[2024-11-20 19:13:12] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-20 19:24:55] ResumeSuspendedGames...
+[2024-11-20 19:25:08] [AppID 7] Starting sync (down,)
+[2024-11-20 19:25:08] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-20 19:25:08] [AppID 7] Download complete in build list
+[2024-11-20 19:25:08] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-20 19:25:08] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-20 19:25:08] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-20 21:49:40] ResumeSuspendedGames...
+[2024-11-21 09:11:33] ResumeSuspendedGames...
+[2024-11-21 09:11:58] [AppID 7] Starting sync (down,)
+[2024-11-21 09:11:58] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-21 09:11:58] [AppID 7] Download complete in build list
+[2024-11-21 09:11:58] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-21 09:11:58] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-21 09:11:59] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-21 11:44:49] ResumeSuspendedGames...
+[2024-11-21 14:31:01] ResumeSuspendedGames...
+[2024-11-21 14:31:15] [AppID 7] Starting sync (down,)
+[2024-11-21 14:31:15] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-21 14:31:15] [AppID 7] Download complete in build list
+[2024-11-21 14:31:15] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-21 14:31:15] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-21 14:31:15] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-21 15:27:04] ResumeSuspendedGames...
+[2024-11-21 15:27:23] [AppID 7] Starting sync (down,)
+[2024-11-21 15:27:24] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-21 15:27:24] [AppID 7] Download complete in build list
+[2024-11-21 15:27:24] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-21 15:27:24] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-21 15:27:24] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-21 15:44:27] [AppID 7] Starting sync (down,)
+[2024-11-21 15:44:27] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-21 15:44:27] [AppID 7] Download complete in build list
+[2024-11-21 15:44:27] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-21 15:44:27] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-21 15:44:27] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-21 15:56:20] [AppID 7] Starting sync (down,)
+[2024-11-21 15:56:21] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-21 15:56:21] [AppID 7] Download complete in build list
+[2024-11-21 15:56:21] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-21 15:56:21] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-21 15:56:21] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-21 16:57:10] ResumeSuspendedGames...
+[2024-11-21 17:58:07] ResumeSuspendedGames...
+[2024-11-21 18:53:21] ResumeSuspendedGames...
+[2024-11-21 21:36:25] ResumeSuspendedGames...
+[2024-11-21 22:03:18] ResumeSuspendedGames...
+[2024-11-21 22:03:31] [AppID 7] Starting sync (down,)
+[2024-11-21 22:03:31] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-21 22:03:31] [AppID 7] Download complete in build list
+[2024-11-21 22:03:31] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-21 22:03:31] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-21 22:03:31] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-21 22:03:31] [AppID 2371090] Starting sync (eval,)
+[2024-11-21 22:03:31] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-21 22:03:31] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-21 22:03:31] [AppID 2371090] Eval complete
+[2024-11-21 22:03:31] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-21 22:03:31] [AppID 2281410] Starting sync (eval,)
+[2024-11-21 22:03:31] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-21 22:03:31] [AppID 2281410] Need to sync from local change number '9' to global change number '10' (full), but not attempting now
+[2024-11-21 22:03:31] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-21 22:03:31] [AppID 2281410] Need to download file Save/saveInfo.info
+[2024-11-21 22:03:31] [AppID 2281410] Need to download file Save/save_1731111269_0.sav
+[2024-11-21 22:03:31] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-21 22:03:31] [AppID 2281410] Eval complete
+[2024-11-21 22:03:31] [AppID 2281410] Starting sync (down,)
+[2024-11-21 22:03:32] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-21 22:03:32] [AppID 2281410] Attempting to sync from local change number '9' to global change number '10' (full)
+[2024-11-21 22:03:32] [AppID 2281410] Need to download file Save/saveInfo.info
+[2024-11-21 22:03:32] [AppID 2281410] Need to download file Save/save_1731111269_0.sav
+[2024-11-21 22:03:32] [AppID 2281410] HTTP download for file 'Save/saveInfo.info' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com', path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB421_10.dat?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEYAFUFLL3GRVB5Q%2F20241122%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20241122T020330Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=65f94b65918ff148d91874d52eda74ef9c366e7b018521869a942f79b299bb9a, beginning. . .
+[2024-11-21 22:03:32] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.sav' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com', path /BF/FD/7B/0C/2281410/003_0_25544B0A_CB422_10.dat?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEYAFUFLL3GRVB5Q%2F20241122%2Fca-central-1%2Fs3%2Faws4_request&X-Amz-Date=20241122T020330Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ed709406b2db52ded54c218a9a4943909715021358e8c1ae0540a457e18092fa, beginning. . .
+[2024-11-21 22:03:33] [AppID 2281410] HTTP download for file 'Save/save_1731111269_0.sav' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com' - Success.
+[2024-11-21 22:03:33] [AppID 2281410] HTTP download for file 'Save/saveInfo.info' from host 'steamcloud-yyz.s3.dualstack.ca-central-1.amazonaws.com' - Success.
+[2024-11-21 22:03:33] [AppID 2281410] Download OK for file Save/saveInfo.info
+[2024-11-21 22:03:33] [AppID 2281410] Download OK for file Save/save_1731111269_0.sav
+[2024-11-21 22:03:33] [AppID 2281410] Download complete, result OK
+[2024-11-21 22:03:33] [AppID 2281410] Successfully synced to ChangeNumber 10
+[2024-11-21 22:03:33] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-21 22:35:30] ResumeSuspendedGames...
+[2024-11-21 22:35:42] [AppID 7] Starting sync (down,)
+[2024-11-21 22:35:42] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-21 22:35:42] [AppID 7] Download complete in build list
+[2024-11-21 22:35:42] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-21 22:35:42] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-21 22:35:42] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-22 08:14:52] ResumeSuspendedGames...
+[2024-11-22 08:15:04] [AppID 7] Starting sync (down,)
+[2024-11-22 08:15:04] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-22 08:15:04] [AppID 7] Download complete in build list
+[2024-11-22 08:15:04] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-22 08:15:04] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-22 08:15:04] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-22 08:42:22] ResumeSuspendedGames...
+[2024-11-22 08:42:37] [AppID 7] Starting sync (down,)
+[2024-11-22 08:42:38] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-22 08:42:38] [AppID 7] Download complete in build list
+[2024-11-22 08:42:38] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-22 08:42:38] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-22 08:42:38] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-22 08:49:11] ResumeSuspendedGames...
+[2024-11-22 08:49:20] [AppID 7] Starting sync (down,)
+[2024-11-22 08:49:21] [AppID 7] Currently already synced to global change number '58', should be nothing to download
+[2024-11-22 08:49:21] [AppID 7] Download complete in build list
+[2024-11-22 08:49:21] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-22 08:49:21] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-22 08:49:21] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-22 08:49:21] [AppID 2371090] Starting sync (eval,)
+[2024-11-22 08:49:21] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-22 08:49:21] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-22 08:49:21] [AppID 2371090] Eval complete
+[2024-11-22 08:49:21] [AppID 2281410] Starting sync (eval,)
+[2024-11-22 08:49:21] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-22 08:49:21] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-22 08:49:21] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-22 08:49:21] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-22 08:49:21] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-22 08:49:21] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-22 08:49:21] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-22 08:49:21] [AppID 2281410] Eval complete
+[2024-11-22 08:49:21] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-22 14:42:30] ResumeSuspendedGames...
+[2024-11-22 14:42:56] [AppID 7] Starting sync (down,)
+[2024-11-22 14:42:56] [AppID 7] Attempting to sync from local change number '58' to global change number '61' (full)
+[2024-11-22 14:42:56] [AppID 7] Download complete in build list
+[2024-11-22 14:42:56] [AppID 7] Successfully synced to ChangeNumber 61
+[2024-11-22 14:42:56] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-22 14:42:56] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-22 14:42:57] [AppID 2371090] Starting sync (eval,)
+[2024-11-22 14:42:57] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-22 14:42:57] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-22 14:42:57] [AppID 2371090] Eval complete
+[2024-11-22 14:42:57] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-22 14:42:57] [AppID 2281410] Starting sync (eval,)
+[2024-11-22 14:42:57] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-22 14:42:57] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-22 14:42:57] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-22 14:42:57] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-22 14:42:57] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-22 14:42:57] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-22 14:42:57] [AppID 2281410] Eval complete
+[2024-11-22 14:42:57] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-22 19:27:20] ResumeSuspendedGames...
+[2024-11-22 20:10:44] ResumeSuspendedGames...
+[2024-11-22 20:10:52] [AppID 7] Starting sync (down,)
+[2024-11-22 20:10:52] [AppID 7] Attempting to sync from local change number '61' to global change number '62' (full)
+[2024-11-22 20:10:52] [AppID 7] Download complete in build list
+[2024-11-22 20:10:52] [AppID 7] Successfully synced to ChangeNumber 62
+[2024-11-22 20:10:52] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-22 20:10:52] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-22 21:37:09] ResumeSuspendedGames...
+[2024-11-23 20:02:06] ResumeSuspendedGames...
+[2024-11-23 20:02:20] [AppID 7] Starting sync (down,)
+[2024-11-23 20:02:20] [AppID 7] Currently already synced to global change number '62', should be nothing to download
+[2024-11-23 20:02:20] [AppID 7] Download complete in build list
+[2024-11-23 20:02:20] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-23 20:02:20] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-23 20:02:20] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-24 18:00:11] ResumeSuspendedGames...
+[2024-11-24 18:00:32] [AppID 7] Starting sync (down,)
+[2024-11-24 18:00:33] [AppID 7] Attempting to sync from local change number '62' to global change number '63' (full)
+[2024-11-24 18:00:33] [AppID 7] Download complete in build list
+[2024-11-24 18:00:33] [AppID 7] Successfully synced to ChangeNumber 63
+[2024-11-24 18:00:33] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-24 18:00:33] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-24 18:02:17] [AppID 7] Starting sync (down,)
+[2024-11-24 18:02:17] [AppID 7] Currently already synced to global change number '63', should be nothing to download
+[2024-11-24 18:02:17] [AppID 7] Download complete in build list
+[2024-11-24 18:02:17] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-24 18:02:17] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-24 18:02:18] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-24 22:45:34] [AppID 7] Starting sync (down,)
+[2024-11-24 22:45:34] [AppID 7] Currently already synced to global change number '63', should be nothing to download
+[2024-11-24 22:45:34] [AppID 7] Download complete in build list
+[2024-11-24 22:45:34] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-24 22:45:34] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-24 22:45:34] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-25 02:29:39] ResumeSuspendedGames...
+[2024-11-25 10:42:32] ResumeSuspendedGames...
+[2024-11-25 10:42:38] [AppID 7] Starting sync (down,)
+[2024-11-25 10:42:38] [AppID 7] Currently already synced to global change number '63', should be nothing to download
+[2024-11-25 10:42:38] [AppID 7] Download complete in build list
+[2024-11-25 10:42:38] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-25 10:42:38] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-25 10:42:38] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-25 10:42:38] [AppID 2371090] Starting sync (eval,)
+[2024-11-25 10:42:38] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-25 10:42:38] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-25 10:42:38] [AppID 2371090] Eval complete
+[2024-11-25 10:42:38] [AppID 2281410] Starting sync (eval,)
+[2024-11-25 10:42:38] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-25 10:42:39] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-25 10:42:39] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-25 10:42:39] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-25 10:42:39] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-25 10:42:39] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-25 10:42:39] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-25 10:42:39] [AppID 2281410] Eval complete
+[2024-11-25 10:42:39] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-25 10:48:46] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2024-11-25 10:48:46] [AppID 7] Starting sync (eval,)
+[2024-11-25 10:48:46] [AppID 7] AutoCloud checking local state for user 209452479
+[2024-11-25 10:48:46] [AppID 7] Need to sync from local change number '63' to global change number '64' (full), but not attempting now
+[2024-11-25 10:48:46] [AppID 7] File is in sync sharedconfig.vdf
+[2024-11-25 10:48:46] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2024-11-25 10:48:46] [AppID 7] Eval complete
+[2024-11-25 10:48:46] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2024-11-25 10:48:46] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-25 10:48:46] [Roaming Config] PerformSyncCloud - all sync'd up
+[2024-11-25 16:27:38] ResumeSuspendedGames...
+[2024-11-25 16:27:51] [AppID 7] Starting sync (down,)
+[2024-11-25 16:27:51] [AppID 7] Attempting to sync from local change number '63' to global change number '64' (full)
+[2024-11-25 16:27:51] [AppID 7] Download complete in build list
+[2024-11-25 16:27:51] [AppID 7] Successfully synced to ChangeNumber 64
+[2024-11-25 16:27:51] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-25 16:27:51] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-25 20:02:32] [AppID 7] Starting sync (down,)
+[2024-11-25 20:02:32] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-25 20:02:32] [AppID 7] Download complete in build list
+[2024-11-25 20:02:32] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-25 20:02:32] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-25 20:02:32] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-25 23:31:50] ResumeSuspendedGames...
+[2024-11-25 23:32:09] [AppID 7] Starting sync (down,)
+[2024-11-25 23:32:09] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-25 23:32:09] [AppID 7] Download complete in build list
+[2024-11-25 23:32:09] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-25 23:32:09] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-25 23:32:09] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-25 23:32:10] [AppID 2371090] Starting sync (eval,)
+[2024-11-25 23:32:10] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-25 23:32:10] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-25 23:32:10] [AppID 2371090] Eval complete
+[2024-11-25 23:32:10] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-25 23:32:10] [AppID 2281410] Starting sync (eval,)
+[2024-11-25 23:32:10] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-25 23:32:10] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-25 23:32:10] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-25 23:32:10] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-25 23:32:10] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-25 23:32:10] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-25 23:32:10] [AppID 2281410] Eval complete
+[2024-11-25 23:32:10] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-25 23:33:52] ResumeSuspendedGames...
+[2024-11-25 23:33:53] ResumeSuspendedGames...
+[2024-11-25 23:33:55] ResumeSuspendedGames...
+[2024-11-25 23:34:16] [AppID 7] Starting sync (down,)
+[2024-11-25 23:34:16] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-25 23:34:16] [AppID 7] Download complete in build list
+[2024-11-25 23:34:16] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-25 23:34:16] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-25 23:34:16] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-25 23:35:06] ResumeSuspendedGames...
+[2024-11-25 23:35:07] ResumeSuspendedGames...
+[2024-11-25 23:35:26] [AppID 7] Starting sync (down,)
+[2024-11-25 23:35:26] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-25 23:35:26] [AppID 7] Download complete in build list
+[2024-11-25 23:35:26] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-25 23:35:26] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-25 23:35:26] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-26 09:25:59] ResumeSuspendedGames...
+[2024-11-26 09:27:30] ResumeSuspendedGames...
+[2024-11-26 09:27:32] [AppID 7] Starting sync (down,)
+[2024-11-26 09:27:32] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-26 09:27:32] [AppID 7] Download complete in build list
+[2024-11-26 09:27:32] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-26 09:27:32] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-26 09:27:32] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-26 11:05:15] ResumeSuspendedGames...
+[2024-11-26 11:05:31] [AppID 7] Starting sync (down,)
+[2024-11-26 11:05:31] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-26 11:05:31] [AppID 7] Download complete in build list
+[2024-11-26 11:05:31] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-26 11:05:31] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-26 11:05:31] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-26 11:05:31] [AppID 2371090] Starting sync (eval,)
+[2024-11-26 11:05:31] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-26 11:05:31] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-26 11:05:31] [AppID 2371090] Eval complete
+[2024-11-26 11:05:32] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-26 11:05:32] [AppID 2281410] Starting sync (eval,)
+[2024-11-26 11:05:32] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-26 11:05:32] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-26 11:05:32] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-26 11:05:32] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-26 11:05:32] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-26 11:05:32] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-26 11:05:32] [AppID 2281410] Eval complete
+[2024-11-26 11:05:32] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-26 11:25:24] ResumeSuspendedGames...
+[2024-11-26 11:25:36] [AppID 7] Starting sync (down,)
+[2024-11-26 11:25:36] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-26 11:25:36] [AppID 7] Download complete in build list
+[2024-11-26 11:25:36] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-26 11:25:36] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-26 11:25:36] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-26 11:28:36] ResumeSuspendedGames...
+[2024-11-26 11:28:55] [AppID 7] Starting sync (down,)
+[2024-11-26 11:28:55] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-26 11:28:55] [AppID 7] Download complete in build list
+[2024-11-26 11:28:55] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-26 11:28:55] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-26 11:28:55] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-26 12:48:12] ResumeSuspendedGames...
+[2024-11-26 12:48:32] [AppID 7] Starting sync (down,)
+[2024-11-26 12:48:32] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-26 12:48:32] [AppID 7] Download complete in build list
+[2024-11-26 12:48:32] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-26 12:48:32] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-26 12:48:32] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-26 12:49:17] ResumeSuspendedGames...
+[2024-11-26 12:49:18] ResumeSuspendedGames...
+[2024-11-26 12:49:33] [AppID 7] Starting sync (down,)
+[2024-11-26 12:49:34] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-26 12:49:34] [AppID 7] Download complete in build list
+[2024-11-26 12:49:34] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-26 12:49:34] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-26 12:49:34] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-26 12:58:24] ResumeSuspendedGames...
+[2024-11-26 13:13:38] ResumeSuspendedGames...
+[2024-11-26 13:13:41] [AppID 7] Starting sync (down,)
+[2024-11-26 13:13:41] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-26 13:13:41] [AppID 7] Download complete in build list
+[2024-11-26 13:13:41] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-26 13:13:41] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-26 13:13:41] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-26 14:09:08] ResumeSuspendedGames...
+[2024-11-26 14:09:31] [AppID 7] Starting sync (down,)
+[2024-11-26 14:09:31] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-26 14:09:31] [AppID 7] Download complete in build list
+[2024-11-26 14:09:31] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-26 14:09:31] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-26 14:09:31] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-26 14:09:31] [AppID 2371090] Starting sync (eval,)
+[2024-11-26 14:09:31] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-26 14:09:31] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-26 14:09:31] [AppID 2371090] Eval complete
+[2024-11-26 14:09:31] [AppID 2281410] Starting sync (eval,)
+[2024-11-26 14:09:31] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-26 14:09:31] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-26 14:09:31] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-26 14:09:31] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-26 14:09:31] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-26 14:09:31] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-26 14:09:31] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-26 14:09:31] [AppID 2281410] Eval complete
+[2024-11-26 14:09:31] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-26 19:12:24] ResumeSuspendedGames...
+[2024-11-26 19:12:42] [AppID 7] Starting sync (down,)
+[2024-11-26 19:12:43] [AppID 7] Currently already synced to global change number '64', should be nothing to download
+[2024-11-26 19:12:43] [AppID 7] Download complete in build list
+[2024-11-26 19:12:43] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-26 19:12:43] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-26 19:12:43] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-26 20:51:53] [Roaming Config] PerformSyncCloud - evaluating sync state
+[2024-11-26 20:51:53] [AppID 7] Starting sync (eval,)
+[2024-11-26 20:51:53] [AppID 7] AutoCloud checking local state for user 209452479
+[2024-11-26 20:51:53] [AppID 7] Need to sync from local change number '64' to global change number '65' (full), but not attempting now
+[2024-11-26 20:51:53] [AppID 7] File is in sync sharedconfig.vdf
+[2024-11-26 20:51:53] [AppID 7] File is in sync serverbrowser_hist.vdf
+[2024-11-26 20:51:53] [AppID 7] Eval complete
+[2024-11-26 20:51:53] [Roaming Config] OnRemoteStorageStateEvaluated - result OK
+[2024-11-26 20:51:53] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-26 20:51:53] [Roaming Config] PerformSyncCloud - all sync'd up
+[2024-11-27 01:35:56] ResumeSuspendedGames...
+[2024-11-27 11:34:08] ResumeSuspendedGames...
+[2024-11-27 11:34:15] [AppID 7] Starting sync (down,)
+[2024-11-27 11:34:15] [AppID 7] Attempting to sync from local change number '64' to global change number '65' (full)
+[2024-11-27 11:34:15] [AppID 7] Download complete in build list
+[2024-11-27 11:34:15] [AppID 7] Successfully synced to ChangeNumber 65
+[2024-11-27 11:34:15] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 11:34:15] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 13:32:39] ResumeSuspendedGames...
+[2024-11-27 13:32:54] [AppID 7] Starting sync (down,)
+[2024-11-27 13:32:54] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 13:32:54] [AppID 7] Download complete in build list
+[2024-11-27 13:32:54] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 13:32:54] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 13:32:54] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 13:34:40] ResumeSuspendedGames...
+[2024-11-27 13:34:42] ResumeSuspendedGames...
+[2024-11-27 13:34:59] [AppID 7] Starting sync (down,)
+[2024-11-27 13:34:59] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 13:34:59] [AppID 7] Download complete in build list
+[2024-11-27 13:34:59] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 13:34:59] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 13:34:59] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 14:35:55] ResumeSuspendedGames...
+[2024-11-27 14:36:00] [AppID 7] Starting sync (down,)
+[2024-11-27 14:36:01] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 14:36:01] [AppID 7] Download complete in build list
+[2024-11-27 14:36:01] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 14:36:01] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 14:36:01] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 14:36:09] ResumeSuspendedGames...
+[2024-11-27 14:36:21] [AppID 7] Starting sync (down,)
+[2024-11-27 14:36:21] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 14:36:21] [AppID 7] Download complete in build list
+[2024-11-27 14:36:21] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 14:36:21] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 14:36:21] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 14:36:46] [AppID 7] Starting sync (down,)
+[2024-11-27 14:36:46] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 14:36:46] [AppID 7] Download complete in build list
+[2024-11-27 14:36:46] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 14:36:46] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 14:36:46] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 17:29:30] ResumeSuspendedGames...
+[2024-11-27 17:33:24] ResumeSuspendedGames...
+[2024-11-27 17:33:25] [AppID 7] Starting sync (down,)
+[2024-11-27 17:33:25] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 17:33:25] [AppID 7] Download complete in build list
+[2024-11-27 17:33:25] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 17:33:25] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 17:33:26] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 17:33:26] [AppID 2371090] Starting sync (eval,)
+[2024-11-27 17:33:26] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-27 17:33:26] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-27 17:33:26] [AppID 2371090] Eval complete
+[2024-11-27 17:33:26] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-27 17:33:26] [AppID 2281410] Starting sync (eval,)
+[2024-11-27 17:33:26] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-27 17:33:26] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-27 17:33:26] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-27 17:33:26] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-27 17:33:26] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-27 17:33:26] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-27 17:33:26] [AppID 2281410] Eval complete
+[2024-11-27 17:33:26] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-27 19:59:57] ResumeSuspendedGames...
+[2024-11-27 20:00:06] [AppID 7] Starting sync (down,)
+[2024-11-27 20:00:07] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 20:00:07] [AppID 7] Download complete in build list
+[2024-11-27 20:00:07] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 20:00:07] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 20:00:07] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 20:00:07] [AppID 2371090] Starting sync (eval,)
+[2024-11-27 20:00:07] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-27 20:00:08] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-27 20:00:08] [AppID 2371090] Eval complete
+[2024-11-27 20:00:08] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-27 20:00:08] [AppID 2281410] Starting sync (eval,)
+[2024-11-27 20:00:08] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-27 20:00:08] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-27 20:00:08] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-27 20:00:08] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-27 20:00:08] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-27 20:00:08] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-27 20:00:08] [AppID 2281410] Eval complete
+[2024-11-27 20:00:08] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-27 20:01:54] ResumeSuspendedGames...
+[2024-11-27 20:02:10] [AppID 7] Starting sync (down,)
+[2024-11-27 20:02:10] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 20:02:10] [AppID 7] Download complete in build list
+[2024-11-27 20:02:10] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 20:02:10] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 20:02:10] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 20:02:11] [AppID 2371090] Starting sync (eval,)
+[2024-11-27 20:02:11] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-27 20:02:11] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-27 20:02:11] [AppID 2371090] Eval complete
+[2024-11-27 20:02:11] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-27 20:02:11] [AppID 2281410] Starting sync (eval,)
+[2024-11-27 20:02:11] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-27 20:02:11] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-27 20:02:11] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-27 20:02:11] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-27 20:02:11] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-27 20:02:11] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-27 20:02:11] [AppID 2281410] Eval complete
+[2024-11-27 20:02:11] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-27 21:06:23] ResumeSuspendedGames...
+[2024-11-27 21:06:49] [AppID 7] Starting sync (down,)
+[2024-11-27 21:06:49] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 21:06:49] [AppID 7] Download complete in build list
+[2024-11-27 21:06:49] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 21:06:49] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 21:06:50] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 21:36:21] ResumeSuspendedGames...
+[2024-11-27 21:36:46] [AppID 7] Starting sync (down,)
+[2024-11-27 21:36:46] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 21:36:46] [AppID 7] Download complete in build list
+[2024-11-27 21:36:46] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 21:36:46] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 21:36:46] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 21:36:46] [AppID 2371090] Starting sync (eval,)
+[2024-11-27 21:36:46] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-27 21:36:46] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-27 21:36:46] [AppID 2371090] Eval complete
+[2024-11-27 21:36:47] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-27 21:36:47] [AppID 2281410] Starting sync (eval,)
+[2024-11-27 21:36:47] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-27 21:36:47] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-27 21:36:47] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-27 21:36:47] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-27 21:36:47] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-27 21:36:47] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-27 21:36:47] [AppID 2281410] Eval complete
+[2024-11-27 21:36:48] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-27 21:43:02] ResumeSuspendedGames...
+[2024-11-27 21:43:21] [AppID 7] Starting sync (down,)
+[2024-11-27 21:43:21] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 21:43:21] [AppID 7] Download complete in build list
+[2024-11-27 21:43:21] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 21:43:21] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 21:43:21] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 21:43:21] [AppID 2371090] Starting sync (eval,)
+[2024-11-27 21:43:21] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-27 21:43:22] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-27 21:43:22] [AppID 2371090] Eval complete
+[2024-11-27 21:43:22] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-27 21:43:22] [AppID 2281410] Starting sync (eval,)
+[2024-11-27 21:43:22] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-27 21:43:22] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-27 21:43:22] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-27 21:43:22] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-27 21:43:22] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-27 21:43:22] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-27 21:43:22] [AppID 2281410] Eval complete
+[2024-11-27 21:43:22] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-27 22:34:16] ResumeSuspendedGames...
+[2024-11-27 22:34:38] [AppID 7] Starting sync (down,)
+[2024-11-27 22:34:38] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 22:34:38] [AppID 7] Download complete in build list
+[2024-11-27 22:34:38] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 22:34:38] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 22:34:38] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 22:34:39] [AppID 2371090] Starting sync (eval,)
+[2024-11-27 22:34:39] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-27 22:34:39] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-27 22:34:39] [AppID 2371090] Eval complete
+[2024-11-27 22:34:39] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-27 22:34:40] [AppID 2281410] Starting sync (eval,)
+[2024-11-27 22:34:40] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-27 22:34:41] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-27 22:34:41] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-27 22:34:41] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-27 22:34:41] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-27 22:34:41] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-27 22:34:41] [AppID 2281410] Eval complete
+[2024-11-27 22:34:41] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-27 22:39:20] ResumeSuspendedGames...
+[2024-11-27 22:39:40] [AppID 7] Starting sync (down,)
+[2024-11-27 22:39:41] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 22:39:41] [AppID 7] Download complete in build list
+[2024-11-27 22:39:41] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 22:39:41] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 22:39:41] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 22:39:41] [AppID 2371090] Starting sync (eval,)
+[2024-11-27 22:39:41] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-27 22:39:41] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (full), but not attempting now
+[2024-11-27 22:39:41] [AppID 2371090] Eval complete
+[2024-11-27 22:39:41] [AppID 2371090] YldWriteCacheDirectoryToFile - empty vector, deleting 'C:\Program Files (x86)\Steam/userdata/209452479/2371090/remotecache.vdf'
+[2024-11-27 22:39:41] [AppID 2281410] Starting sync (eval,)
+[2024-11-27 22:39:41] [AppID 2281410] AutoCloud checking local state for user 209452479
+[2024-11-27 22:39:42] [AppID 2281410] Currently already synced to global change number '10', should be nothing to download
+[2024-11-27 22:39:42] [AppID 2281410] File is in sync Save/blueprint
+[2024-11-27 22:39:42] [AppID 2281410] File is in sync Save/saveInfo.info
+[2024-11-27 22:39:42] [AppID 2281410] File is in sync Save/save_1731111269_0.sav
+[2024-11-27 22:39:42] [AppID 2281410] File is in sync Save/save_1731111269_0.savns
+[2024-11-27 22:39:42] [AppID 2281410] Eval complete
+[2024-11-27 22:39:42] [AppID 2281410] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/2281410/remotecache.vdf'
+[2024-11-27 22:59:19] ResumeSuspendedGames...
+[2024-11-27 22:59:46] [AppID 7] Starting sync (down,)
+[2024-11-27 22:59:46] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 22:59:46] [AppID 7] Download complete in build list
+[2024-11-27 22:59:46] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 22:59:46] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 22:59:46] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 23:05:40] [AppID 7] Starting sync (down,)
+[2024-11-27 23:05:40] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 23:05:40] [AppID 7] Download complete in build list
+[2024-11-27 23:05:40] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 23:05:40] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 23:05:40] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 23:59:31] ResumeSuspendedGames...
+[2024-11-27 23:59:44] [AppID 7] Starting sync (down,)
+[2024-11-27 23:59:44] [AppID 7] Currently already synced to global change number '65', should be nothing to download
+[2024-11-27 23:59:44] [AppID 7] Download complete in build list
+[2024-11-27 23:59:44] [AppID 7] Successfully synced to ChangeNumber 0
+[2024-11-27 23:59:44] [Roaming Config] OnRemoteStorageSyncedClient() - result OK
+[2024-11-27 23:59:44] [AppID 7] YldWriteCacheDirectoryToFile - saved to 'C:\Program Files (x86)\Steam/userdata/209452479/7/remotecache.vdf'
+[2024-11-27 23:59:44] [AppID 2371090] Starting sync (eval,)
+[2024-11-27 23:59:44] [AppID 2371090] AutoCloud checking local state for user 209452479
+[2024-11-27 23:59:44] [AppID 2371090] Need to sync from local change number '0' to global change number '0' (fu
